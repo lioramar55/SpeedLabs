@@ -1,14 +1,14 @@
 {
-  "name": "AlphaApps",
+  "name": "SpeedLabs",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://lioramar55.github.io/<repository-name>",
+  "homepage": "https://lioramar55.github.io/speedlabs",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
