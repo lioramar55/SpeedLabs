@@ -1,0 +1,30 @@
+footer {
+  background-color: var(--header-footer-bg);
+  padding: 2rem 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-content a {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 1.5rem 0;
+  }
+
+  .footer-content {
+    gap: 1rem;
+  }
+}
